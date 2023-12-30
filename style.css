@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "kajiro";
+    src: url(/Kajiro\ Bold.woff2);
+}
+@font-face {
+    font-family:  "gilroy";
+    src: url(/Gilroy-ExtraBold.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+    box-sizing: border-box;
+}html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* background-color: black; */
+}#back{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    overflow: hidden;
+    
+    /* background-color: red; */
+}#back img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+#top{
+    
+    pointer-events:none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height:100vh;
+    /* background-color: rgba(0, 0, 0, 0.234); */
+}#work{
+    position: relative;
+    width: 85%;
+    height: 100vh;
+    max-width: 1920px;
+    /* background-color: grey; */
+    /* border: 1px solid yellow; */
+    margin:0 auto;
+}#nav{
+    display: flex;
+    
+    width: 90%;
+    /* background-color: red; */
+    padding:20px 0 ;
+    margin: 02px;
+    /* margin-left: px; */
+}#nav img{
+    height: 60px;
+}#nav a{
+    pointer-events: all;
+    color: #fff;
+    font-family: "gilroy";
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+    text-transform: capitalize;
+    
+}#navleft {
+    display: flex;
+    align-items: center;
+    gap: 50px;    
+}#navrigth{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left:680px;
+    
+}#text{
+    display: flex;  
+}
+#container{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+    /* height: 100px; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0% ,-50%);
+}#container-left{
+ min-width:45%;
+ /* height: 100px; */
+ /* background-color: yellow; */
+}
+#container-left .elem h1{
+    line-height: .9;
+   font-family: "kajiro";
+   color: #fff;
+   font-weight: 100;
+   position: absolute;
+    top: 100%;
+    left: 0;
+   font-size: 10vw;
+}#container-left .elem h1:nth-child(1){
+    top:0%
+}
+
+
+#container-left .elem{
+height: 9vw;
+position: relative;
+/* background: red; */
+overflow: hidden;
+}#container-left  button{
+    pointer-events: all;
+    padding: 0.8vw 3vw;
+    font-size: 4vw;
+    font-family: "kajiro";
+    border: none;
+    margin-top: 2vw;
+}#container-right{
+    width:20%;
+    /* height: 100px; */
+    /* background-color: blue; */
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 300;
+    
+   }#container-right #img{
+     width: 100%;
+     height: 200px;
+     background-image: url(https://images.unsplash.com/photo-1589156191108-c762ff4b96ab?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fHBvcnRyYWl0fGVufDB8fDB8fHww);
+     background-position:center;
+     background-size: cover;
+     /* background-color: red; */
+     margin-bottom: 30px;
+   }#container-right p:nth-child(3){
+    margin-bottom: 50px;
+   }#container-right p:nth-child(1){
+    margin-bottom: 20px;
+   }
