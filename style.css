@@ -1,16 +1,16 @@
 @font-face {
-    font-family: "kajiro";
+    font-family: kk;
     src: url(/Kajiro\ Bold.woff2);
 }
 @font-face {
-    font-family:  "gilroy";
+    font-family:  GG;
     src: url(/Gilroy-ExtraBold.woff2);
 }
 
 *{
     margin: 0;
     padding: 0;
-    font-family: "gilroy";
+    font-family: GG;
     box-sizing: border-box;
 }html, body{
     height: 100%;
@@ -64,7 +64,7 @@
 }#nav a{
     pointer-events: all;
     color: #fff;
-    font-family: "gilroy";
+    font-family: GG;
     font-weight: 700;
     text-decoration: none;
     letter-spacing: 1px;
@@ -101,7 +101,7 @@
 }
 #container-left .elem h1{
     line-height: .9;
-   font-family: "kajiro";
+   font-family: kk;
    color: #fff;
    font-weight: 100;
    position: absolute;
@@ -122,7 +122,7 @@ overflow: hidden;
     pointer-events: all;
     padding: 0.8vw 3vw;
     font-size: 4vw;
-    font-family: "kajiro";
+    font-family: kk;
     border: none;
     margin-top: 2vw;
 }#container-right{
